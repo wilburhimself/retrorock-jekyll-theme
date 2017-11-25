@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="page">
+
+  <hgroup>
+    <h3 class="main_title">{{ page.title }}</h3>
+    {% if page.sub_title %}
+      <h4 class="secondary_title">{{ page.sub_title }}</h4>
+    {% endif %}
+  </hgroup>
+
+  <section class="page_content">
+    {{ content }}
+  </section>
+</article>

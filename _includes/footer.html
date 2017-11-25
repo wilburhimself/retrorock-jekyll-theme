@@ -1,0 +1,17 @@
+<footer class="site_footer">
+  {% if site.author %}
+    <span class="author">By: {{ site.author | escape }}</span>
+  {% endif %}
+
+  {% if site.twitter_username %}
+    <a href="http://twitter.com/{{site.twitter_username}}">Twitter</a>
+  {% endif %}
+
+  {% if site.linkedin_username %}
+    <a href="http://linkedin.com/in/{{site.linkedin_username}}">Linkedin</a>
+  {% endif %}
+
+  {% if site.github_username %}
+    <a href="http://github.com/{{ site.github_username }}">Github</a>
+  {% endif %}
+</footer>

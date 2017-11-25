@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="post">
+  <hgroup>
+    <h3 class="main_title">{{ page.title }}</h3>
+    {% if page.sub_title %}
+      <h4 class="secondary_title">{{ page.sub_title }}</h4>
+    {% endif %}
+  </hgroup>
+
+  {{ content }}
+
+</article>

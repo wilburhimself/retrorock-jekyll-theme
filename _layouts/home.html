@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+
+  <section class="posts">
+    {% for post in site.posts %}
+      <a href="{{ post.url | relative_url}}">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {{ post.title | escape }}
+      </a>
+    {% endfor %}
+  </section>
+</div>
