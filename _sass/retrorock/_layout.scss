@@ -49,9 +49,16 @@ hgroup {
   }
 }
 
-.page_content {
+.page_content, .post-content {
   p {
     margin: ($spacing-unit / 2) 0;
+  }
+
+  img {
+    display: block;
+    border: none;
+    width: 100%;
+    height: auto;
   }
 }
 

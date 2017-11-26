@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "retrorock-jekyll-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Wilbur Suero"]
   spec.email         = ["wilbur.himself@gmail.com"]
 
