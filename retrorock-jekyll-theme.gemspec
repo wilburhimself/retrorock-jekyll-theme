@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["wilbur.himself@gmail.com"]
 
   spec.summary       = %q{Gem theme originally for retrorock.info}
-  spec.homepage      = "git://github.com/wilburhimself/retrorock-jekyll-theme.git"
+  spec.homepage      = "https://github.com/wilburhimself/retrorock-jekyll-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
