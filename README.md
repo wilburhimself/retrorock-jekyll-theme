@@ -1,6 +1,6 @@
 # retrorock-jekyll-theme
 
-Retrorock is a succint theme for blogging. It features large and prominent titles and is suited for reading.
+Retrorock is a succinct theme for blogging. It features large and prominent titles and is suited for reading.
 
 ## Installation
 
